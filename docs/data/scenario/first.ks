@@ -1,33 +1,31 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="燃えたストーブ"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「燃えたストーブ」[l][r]
 
-メロスは激怒した。[l][r]
+[bg storage=jiko_kaji_stove_syukka.png time=500]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+大変！部屋のストーブが燃えている！[l][r]
 
-(中略)[l][r]
+ストーブの上に放り投げた毛布に引火したのだ！[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+消さなきゃ！油と水のどちらを掛けたら火は消えるだろうか！？...[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sleep] →油を注ぐ [endlink][r]
+[link target=*tag_run] →水をかける [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=kaji_house.png time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+火が燃え広がってしまった。[r]
 
 【 BAD END 】[l][cm]
 
@@ -35,11 +33,11 @@
 
 *tag_run
 
-[bg storage=run.jpg time=500]
+[bg storage=sekiyu_stove_off.png time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+何とか火は消えた。[l][r]
+ストーブのそばには燃えやすいものを置かないように気を付けよう[r]
 
 【 GOOD END 】[l][cm]
 
